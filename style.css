@@ -86,3 +86,62 @@ ul {
     margin: 0 10px 0 0;
     transform: translateY(10px);
 }
+
+.text {
+    position: absolute;
+    top: 25%;
+    right: 180px;
+    transform: translateY(-50%);
+    text-align: right;
+    color: #494949;
+}
+
+.text .title {
+    font-size: 150px;
+}
+
+.watchnow {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    transform: translateY(-50%);
+    background: #ffeb00;
+    padding: 30px 180px 30px 30px;
+}
+
+.watchnow a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 5px solid black;
+}
+
+.fa-play {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.media {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.media ul li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    color: #494949;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: .5s ease;
+}
+
+.media ul li:hover {
+    background: #ffeb00;
+}
